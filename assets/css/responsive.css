@@ -1,0 +1,989 @@
+@media screen and (max-width: 1600px) {
+
+  /* Mobapp Banner */
+  .mg {
+    right: -44%;
+  }
+
+  .nw_sbhdng h2 {
+    font-size: 32px;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+
+  /* Header */
+  .header nav ul {
+    margin-right: 0px;
+  }
+
+  /* Mobapp Banner */
+  .mobile_app_banner {
+    height: 720px;
+  }
+
+  .mh h1 {
+    font-size: 46px;
+  }
+
+  .mh p {
+    font-size: 20px;
+  }
+
+  .mg video {
+    width: 800px;
+  }
+
+  /* Mobapp cta 1 */
+
+  .nw_cta h2 {
+    font-size: 32px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  /* Header */
+  #menu {
+    height: 0;
+    z-index: -5;
+    opacity: 0;
+    visibility: 0;
+  }
+
+  .header nav {
+    display: flex;
+    background: var(--text-color-white);
+    color: var(--text-color-dark);
+    z-index: -1;
+    position: absolute;
+    left: 0vh;
+    right: 0vh;
+    top: 70px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 20px;
+    overflow-y: auto;
+    opacity: 0;
+    visibility: 0;
+    transition: all ease-in-out 0.3s;
+  }
+
+  #open_menubar {
+    display: flex;
+  }
+
+  #close_menubar {
+    display: none;
+  }
+
+  .my_navbar_custom {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .header .my_navbar_custom .drp {
+    text-align: left;
+    text-align: left !important;
+    border-bottom: 1px solid hsla(0, 0%, 88%, 0.5);
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .header,
+  .my_navbar_custom .drp2 {
+    padding: 15px 0;
+  }
+
+  .pricing-dropdown {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+
+  #md_sm_submenu {
+    display: flex !important;
+    flex-direction: column !important;
+    border: 1px solid blue !important;
+  }
+
+  .responsive_wrapper {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .sticky-offer {
+    height: 200px;
+  }
+
+  .header .my_navbar_custom a {
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .nav_dropdown_parent a.drop_anchor:after {
+    right: 0px;
+  }
+
+  .nav_dropdown_parent:hover .dropdown_menu.nav_drop {
+    display: none;
+  }
+
+  .nav_dropdown_parent .dropdown_menu.nav_drop.open {
+    display: block;
+  }
+
+  .nav_dropdown_parent .dropdown_menu.nav_drop {
+    display: none;
+    position: relative !important;
+    width: 100% !important;
+    top: 0 !important;
+    transform: unset !important;
+  }
+
+  /*  */
+  .drp > li {
+    width: 100%;
+  }
+
+  .big_menu_lt {
+    width: 100%;
+  }
+
+  .big_menu_rt {
+    display: none;
+  }
+
+  .header .big_menu_item a {
+    justify-content: flex-start;
+    text-align: left;
+  }
+
+  /* Mobapp Banner */
+
+  .mobile_app_banner {
+    height: auto;
+  }
+
+  .banner_menu {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .banner_menu .mh {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .mh h1 {
+    font-size: 45px;
+  }
+
+  .banner_menu.d_flx h1::after {
+    display: none;
+  }
+
+  .mh p span {
+    display: contents;
+  }
+
+  .mh button {
+    display: inline-block;
+  }
+
+  .banner_menu .mg {
+    width: 50%;
+    transform: inherit;
+    position: inherit;
+  }
+
+  .mg video {
+    display: none;
+  }
+
+  .mg figure {
+    display: block;
+    text-align: center;
+  }
+
+  .mg img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* Mobapp Offers */
+
+  .esc .mbl_offers {
+    padding-top: 50px;
+  }
+
+  .sb h2 {
+    font-size: 40px;
+  }
+
+  .mh p,
+  .sb p {
+    font-size: 18px;
+  }
+
+  .offers_menu {
+    margin-top: 50px;
+  }
+
+  .offers_lt {
+    width: 40%;
+    position: unset;
+    margin: 0 auto;
+  }
+
+  .offers_rt {
+    width: 100%;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    gap: 15px;
+  }
+ 
+  /* Mobapp Cta 1 */
+
+  .dev_cta_main {
+    background-image: unset;
+    text-align: center;
+    padding: 30px;
+  }
+
+  .dev_cta_main:after {
+    display: none;
+  }
+
+  .nw_cta button {
+    display: inline-block !important;
+  }
+
+  /* Mobapp Your Vision */
+
+  .vision_sec .sb h2 {
+    font-size: 40px;
+  }
+
+  .vision_sec .vision_sec_slider {
+    margin: 40px 0px 62px 0px;
+  }
+
+  .vision_item {
+    min-height: 290px !important;
+  }
+
+  .vision_item.slick-current {
+    padding: 20px;
+    min-height: 1px;
+  }
+
+  .vision_item {
+    margin: 0 6px;
+}
+}
+
+@media screen and (max-width: 900px) {
+
+  /* Mobapp Modern Tech */
+  .modern_tech_fl {
+    display: none;
+  }
+
+  .modern_btn_cta {
+    display: block;
+  }
+
+  /* Mobapp Methodology */
+
+  .meth_sec .fix_container .tech_us{
+    display: none !important;
+  }
+
+  .meth_mob
+{
+display: block !important;
+margin-top: 40px;
+}
+
+/* Mobapp Launch 2 */
+
+.launch2_ryt {
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+ .launch2_ryt h4 {
+  font-size: 30px;
+  font-weight: 500;
+  margin: 0;
+  line-height: 40px;
+}
+
+.launch2_lft {
+  margin: 40px auto;
+}
+
+.app_gallery_lst{
+  display: none ;
+
+}
+
+.app_gallery_lst_mbl{
+  display: block !important;
+}
+
+
+}
+
+@media screen and (max-width: 768px) {
+
+  /* Header */
+
+  .sticky-offer {
+    height: 120px;
+  }
+
+  /* Mobapp Offers */
+  .esc {
+    padding: 40px 0 10px;
+  }
+
+  .sb h2 {
+    font-size: 35px;
+  }
+
+  .sb p {
+    font-size: 16px;
+    line-height: normal;
+  }
+
+  .offers_menu {
+    margin-top: 50px;
+  }
+
+  .offers_lt {
+    width: 60%;
+  }
+
+  .offers_bx {
+    padding: 20px;
+    width: 48%;
+  }
+
+  /* Mobapp Shape */
+
+  .blk_span {
+    display: inline;
+  }
+
+  .shape_menu_ul,
+  .suite_line i {
+    display: none;
+  }
+  .shape_menu_div .shape_menu_mob {
+    display: block;
+  }
+
+  /* Mobapp cta 1 */
+
+  .nw_cta button {
+    display: inline-block;
+  }
+
+  /* Mobapp Modern Tech */
+
+  .modern_tech_fl {
+    display: none;
+  }
+
+  .modern_tech_mb,
+  .shape_mn_mob {
+    display: block;
+  }
+
+  .sb h2 {
+    font-size: 35px;
+  }
+
+  .sb p {
+    font-size: 16px;
+    line-height: normal;
+  }
+
+  .modern_tech_mb {
+    margin-top: 40px;
+  }
+
+  .modern_mb_lst figure {
+    width: 300px;
+    margin: 0 auto;
+  }
+
+  .modern_mb_lst h2 {
+    margin-top: 20px;
+    font-size: 30px;
+  }
+
+  .modern_mb_lst figure {
+    width: auto;
+    margin: 0 auto;
+  }
+
+  /* Mobapp Your Vision */
+
+  .vision_sec .sb h2 {
+    font-size: 26px;
+  }
+
+  /*  */
+
+  .vision_sec_slider .slick-prev {
+    left: 15rem;
+    top: unset;
+    bottom: -6rem;
+    z-index: 1;
+    background: #e7e7e7 0% 0% no-repeat padding-box !important;
+  }
+
+  .vision_sec_slider .slick-next {
+    right: 15rem;
+    top: unset;
+    bottom: -6rem;
+    z-index: 1;
+    background: #e7e7e7 0% 0% no-repeat padding-box !important;
+
+  }
+  /*  */
+
+  .vision_sec .button_main {
+    margin-top: 7rem;
+  }
+
+  /* Mobapp Methodology */
+
+  .meth_sec .fix_container .tech_us{
+    display: none;
+  }
+
+  .meth_mob
+{
+  display: block;
+  margin-top: 40px;
+}
+
+  .meth_mob_li {
+    height: 498px !important;
+   
+}
+
+  .meth_mob .slick-next:before,
+  .meth_mob .slick-prev:before {
+    color: #000;
+    font-size: 21px;
+    background: #fff;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    animation: unset;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #242424;
+    opacity: 1;
+  }
+
+  .meth_mob .slick-prev {
+    left: 43%;
+    top: unset;
+    bottom: -55px;
+    z-index: 1;
+  }
+
+  .meth_mob .slick-next {
+    left: 53%;
+    top: unset;
+    bottom: -55px;
+    z-index: 1;
+  }
+
+  .meth_mob .slick-prev,.meth_mob .slick-next {
+    display: none !important;
+  }
+
+  .slick-dots li button:before {
+    margin-top: 10px;
+    font-family: 'slick';
+    font-size: 16px !important;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    content: '•';
+    text-align: center;
+    opacity: .25;
+    color: #3a9948 !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Mobapp Cta 2 */
+
+.blk_span .button_main .mx-auto{
+  margin: 0;
+  display: block !important;
+}
+
+.blk_span {
+  display: inline;
+}
+
+.challenge_main {
+  background: #4396FB;
+  justify-content: center;
+  text-align: center;
+  padding: 30px;
+}
+
+/* Mobapp launch */
+
+ .launch_lst, .launch_sec .launch_lst {
+  width: 48%;
+
+}
+
+.launch_lst {
+  width: 49%;
+  display: block;
+  margin-bottom: 0;
+  border: 1px solid #fff;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.launch_ryt{
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.launch_ryt h4 {
+  font-size: 30px;
+  font-weight: 500;
+  margin: 0;
+  line-height: 40px;
+}
+
+.launch_ryt span {
+  display: contents;
+}
+
+.launch_lft {
+  margin: 0 auto 40px;
+}
+
+.launch_sec .launch_lst {
+  width: 49%;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+/* Mobapp Works */
+
+.work_sec::after, .work_sec figure{
+  display: none;;
+}
+
+.work_sec{
+  margin-top: 30px;
+}
+
+.work_ul {
+  margin-top: 30px;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.work_li {
+  width: 47%;
+}
+
+/* Mobapp cta 3 */
+
+.nw_cta3 {
+  padding: 20px;
+}
+
+/* Mobapp App Gallery */
+
+.app_gallery_lst_mbl  {
+  height: 498px !important;
+  padding-left: 0;
+ 
+}
+
+.app_gallery_lst_mbl  .slick-next:before,
+.app_gallery_lst_mbl  .slick-prev:before {
+  color: #000;
+  font-size: 21px;
+  background: #fff;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  animation: unset;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #242424;
+  opacity: 1;
+}
+
+.app_gallery_lst_mbl  .slick-prev {
+  left: 43%;
+  top: unset;
+  bottom: -55px;
+  z-index: 1;
+}
+
+.metapp_gallery_lst_mbl .slick-next {
+  left: 53%;
+  top: unset;
+  bottom: -55px;
+  z-index: 1;
+}
+
+.app_gallery_lst_mbl  .slick-prev,.app_gallery_lst_mbl  .slick-next {
+  display: none !important;
+}
+
+.slick-dots li button:before {
+  margin-top: 10px;
+  font-family: 'slick';
+  font-size: 16px !important;
+  line-height: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  content: '•';
+  text-align: center;
+  opacity: .25;
+  color: #3a9948 !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+}
+
+@media screen and (max-width: 600px) {
+
+  /* Mobapp Work */
+
+.work_ul {
+  gap: 20px;
+  padding-left: 0;
+}
+
+.work_li{
+  width: 100%;
+}
+
+.work_sec .work_mn {
+  padding: 20px;
+  width: 95%;
+}
+}
+
+@media screen and (max-width: 425px) {
+
+  /* Header */
+  .big_menu_list {
+    flex-direction: column;
+    padding-left: 0;
+  }
+
+  .big_menu_item {
+    width: 100%;
+    border-bottom: 1px solid hsla(0, 0%, 88%, 0.5);
+    padding-bottom: 8px;
+  }
+
+
+  /* Mobapp Banner */
+  .banner_menu .mh {
+    width: 100%;
+  }
+
+  .banner_menu .mg {
+    width: 80%;
+  }
+
+  .mh h1 {
+    font-size: 26px;
+  }
+
+  .banner_menu.d_flx h1::after {
+    display: none;
+  }
+
+  .banner_menu p {
+    margin: 25px 0;
+    width: 100%;
+    font-size: 18px;
+  }
+
+  .mh button .wrap {
+    font-size: 18px;
+  }
+
+  /* Mobapp Offers */
+
+  .sb h2 {
+    font-size: 24px;
+    line-height: normal;
+  }
+
+  .offers_lt {
+    width: 90%;
+  }
+
+  .offers_bx {
+    padding: 15px;
+    gap: 10px;
+    width: 100%;
+  }
+
+  .offers_bx h3 {
+    font-size: 16px !important;
+  }
+
+  /* Mobapp Shape */
+
+  .shape_menu_mob {
+    margin-bottom: 50px;
+  }
+
+  /*  */
+
+  .shape_menu_mob .slick-prev {
+    left: 5rem;
+    top: unset;
+    bottom: -5rem;
+    z-index: 1;
+  }
+
+  .shape_menu_mob .slick-next {
+    right: 5rem;
+    top: unset;
+    bottom: -5rem;
+  }
+
+  /*  */
+
+  
+  /* Mobapp cta 1 */
+
+  .nw_cta h2 {
+    font-size: 25px;
+  }
+
+  .nw_cta p {
+    font-size: 16px;
+    line-height: normal;
+  }
+
+  .nw_cta button .wrap {
+    font-size: 16px;
+  }
+
+  .dev_cta_main p {
+    margin: 10px 0 35px !important;
+  }
+
+  /* Mobapp Modern Tech */
+
+  .modern_mb_lst img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .modern_tech_mb .slick-prev {
+    left: 5rem;
+    top: unset;
+    bottom: -5rem;
+    z-index: 1;
+  }
+
+  .modern_tech_mb .slick-next {
+    right: 5rem;
+    top: unset;
+    bottom: -5rem;
+    z-index: 1;
+  }
+
+  .esc.modern_tech {
+    padding-bottom: 60px;
+  }
+
+  .modern_btn_cta .button_main {
+    margin-bottom: 0 !important;
+}
+
+.modern_btn_cta .button_main {
+  margin-top: 86px;
+}
+
+  /* Mobapp Your Vision */
+
+
+
+  .button_main button {
+    height: 46px;
+  }
+
+  .button_main button a i {
+    height: 34px;
+    width: 37px;
+  }
+
+  .vision_sec_slider .slick-prev {
+    left: 5rem;
+    top: unset;
+    bottom: -6rem;
+    z-index: 1;
+  }
+
+  .vision_sec_slider .slick-next {
+    right: 5rem;
+    top: unset;
+    bottom: -6rem;
+    z-index: 1;
+  }
+
+  .vision_item {
+    margin: 0 6px;
+}
+
+  /* Mobapp Cta 2 */
+
+  .nw_cta_2 p, .nw_cta_2 p {
+    font-size: 16px;
+    line-height: normal;
+}
+
+.button_main button a {
+  font-size: 1.05rem;
+}
+
+.nw_cta_2 h2 {
+  font-size: 25px;
+}
+
+/* Mobapp Launch */
+
+.launch_sec .launch_lft {
+  margin: 0px auto 0;
+  width: 80%;
+}
+
+ .launch_ryt h4 {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 28px;
+}
+
+ .launch_ryt p {
+  font-size: 16px;
+  margin-top: 6px;
+}
+
+.launch_lst, .launch_sec .launch_lst {
+  width: 100%;
+}
+
+.launch_sec .launch_inner {
+  
+  gap: 15px;
+}
+
+/* Mobapp Launch 2 */
+
+ .launch2_ryt h4 {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 28px;
+}
+
+.launch2_ryt p {
+  font-size: 16px;
+}
+
+.launch2_lft{
+  width: 80%;
+}
+
+.launch2_lft video {
+  width: 100%;
+}
+
+/* Mobapp Work*/
+
+.work_sec .work_mn {
+  padding: 20px;
+  width: 95%;
+}
+
+.work_mn h2 {
+  font-size: 25px;
+}
+
+.work_mn p {
+  font-size: 16px;
+  line-height: normal;
+}
+
+.work_ul {
+  gap: 20px;
+  padding-left: 0;
+}
+
+.work_li{
+  width: 100%;
+} 
+
+/* Mobapp cta 3 */
+
+.nw_cta3 h2 {
+  font-size: 25px;
+}
+
+.nw_cta3 p{
+  font-size: 16px;
+  line-height: normal;
+}
+}
+
+@media screen and (max-width: 320px) {
+  /* Mobapp Shape */
+
+
+  /* Mobapp Modern Tech */
+
+  .modern_mb_lst {
+    height: 850px !important;
+  }
+
+
+}

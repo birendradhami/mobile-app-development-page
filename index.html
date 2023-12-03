@@ -1,0 +1,2271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mobile App Development</title>
+    <link
+      rel="icon"
+      href="assets/img/neem_icon.png"
+      type="image/png"
+      sizes="16x16"
+    />
+
+    <!-- CSS -->
+
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"
+      integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+      integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Icons -->
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script src="https://cdn.lordicon.com/bhenfmcm.js"></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <!-- JS -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
+
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.30/skrollr.min.js"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script> -->
+    <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> -->
+
+    <!-- <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script> -->
+
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script> -->
+
+    <script src="assets/js/script.js"></script>
+
+    <!-- Fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="topbar_and_header_wrapper top0_sticky">
+      <!-- Header Section -->
+
+      <section class="header_section">
+        <div class="header">
+          <div class="container">
+            <div class="header_row">
+              <div class="header_logo pt-2 bdr">
+                <a href="index.html"> </a
+                ><a href="index.html">
+                  <div class="logo">
+                    <img
+                      src="/assets/img/neem_infosys.png"
+                      alt=""
+                      height="60px"
+                    />
+                  </div>
+                </a>
+              </div>
+
+              <div class="my_navbar bdr">
+                <div class="my_navbar_row">
+                  <nav class="my_navbar_custom bdr2" id="menu">
+                    <ul class="drp">
+                      <li class="drp2"><a href="./about.html">About Us</a></li>
+                    </ul>
+                    <!-- <ul class="my-auto">
+                      <li class=""><a href="what-we-do.html">What We Do</a></li>
+                    </ul> -->
+
+                    <ul id="drp" class="drp">
+                      <li class="nav_dropdown_parent drp2">
+                        <a
+                          href="javascript:void(0);"
+                          class="dropdown-toggle drop_anchor"
+                          data-toggle="dropdown"
+                          aria-label="Link"
+                          rel="noopener noreferrer"
+                          >Services</a
+                        >
+                        <ul id="loginDropdown" class="dropdown_menu nav_drop">
+                          <li class="big_menu">
+                            <div class="big_menu_wrap">
+                              <div class="big_menu_lt">
+                                <ul class="big_menu_list">
+                                  <li class="big_menu_item">
+                                    <a>
+                                      <i
+                                        class="fa-solid fa-mobile-screen-button seo_icon"
+                                      ></i>
+                                      Mobile App Development
+                                      <figure
+                                        class="menu_arrow"
+                                        style="color: #7570b8"
+                                      >
+                                        ➝
+                                      </figure>
+                                    </a>
+                                  </li>
+                                  <li class="big_menu_item">
+                                    <a>
+                                      <i class="fa-solid fa-globe web_icon"></i>
+                                      Web App Development
+                                      <figure
+                                        class="menu_arrow"
+                                        style="color: #7570b8"
+                                      >
+                                        ➝
+                                      </figure>
+                                    </a>
+                                  </li>
+                                  <li class="big_menu_item">
+                                    <a>
+                                      <i class="fa-solid fa-globe web_icon"></i>
+                                      UX/UI Designing
+                                      <figure
+                                        class="menu_arrow"
+                                        style="color: #7570b8"
+                                      >
+                                        ➝
+                                      </figure>
+                                    </a>
+                                  </li>
+                                  <li class="big_menu_item">
+                                    <a>
+                                      <i class="fa-solid fa-globe web_icon"></i>
+                                      Cryptocurrency Development
+                                      <figure
+                                        class="menu_arrow"
+                                        style="color: #7570b8"
+                                      >
+                                        ➝
+                                      </figure>
+                                    </a>
+                                  </li>
+                                  <li class="big_menu_item">
+                                    <a>
+                                      <i class="fa-solid fa-globe web_icon"></i>
+                                      MVP Development
+                                      <figure
+                                        class="menu_arrow"
+                                        style="color: #7570b8"
+                                      >
+                                        ➝
+                                      </figure>
+                                    </a>
+                                  </li>
+                                  <li class="big_menu_item">
+                                    <a>
+                                      <i class="fa-solid fa-globe web_icon"></i>
+                                      Digital Marketing
+                                      <figure
+                                        class="menu_arrow"
+                                        style="color: #7570b8"
+                                      >
+                                        ➝
+                                      </figure>
+                                    </a>
+                                  </li>
+                                </ul>
+                              </div>
+                              <div class="big_menu_rt">
+                                <!-- Ebook -->
+                                <div class="ebook_wrap">
+                                  <div class="ebook_img">
+                                    <img
+                                      src="assets/img/book_cover.webp"
+                                      alt=""
+                                    />
+                                  </div>
+                                  <div class="ebook_content">
+                                    <span class="ebook_cat"> E Guide </span>
+                                    <h3 class="ebook_heading">
+                                      App Monetization Strategies: How to Make
+                                      Money From an App?
+                                    </h3>
+                                    <span class="ebook_date">
+                                      Jun 22, 2023
+                                    </span>
+                                    <a href="#" class="ebook_btn">
+                                      Download now
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+
+                    <ul class="drp">
+                      <li class="drp2"><a href="product.html">Products</a></li>
+                    </ul>
+                    <ul class="drp">
+                      <li class="drp2">
+                        <a href="portfolio.html">Portfolio</a>
+                      </li>
+                    </ul>
+                    <ul id="drp" class="drp dropdown">
+                      <li class="nav_dropdown_parent drp2" id="drp2_pricing">
+                        <a
+                          href="javascript:void(0);"
+                          id="dropdown-toggle"
+                          class="dropdown-toggle drop_anchor"
+                          data-toggle="dropdown"
+                          aria-label="Link"
+                          rel="noopener noreferrer"
+                          >Pricing</a
+                        >
+
+                        <ul id="loginDropdown" class="dropdown_menu nav_drop">
+                          <li class="big_menu">
+                            <ul class="big_menu_list">
+                              <li class="big_menu_item">
+                                <a>
+                                  <i class="fa-solid fa-globe web_icon"></i>
+                                  Web Development Package
+                                  <figure
+                                    class="menu_arrow"
+                                    style="color: #7570b8"
+                                  >
+                                    ➝
+                                  </figure>
+                                </a>
+                              </li>
+                              <li class="big_menu_item">
+                                <a>
+                                  <i
+                                    class="fa-solid fa-magnifying-glass seo_icon"
+                                  ></i>
+                                  SEO Package
+                                  <figure
+                                    class="menu_arrow"
+                                    style="color: #7570b8"
+                                  >
+                                    ➝
+                                  </figure>
+                                </a>
+                              </li>
+                              <li class="big_menu_item">
+                                <a>
+                                  <i
+                                    class="fa-solid fa-share-nodes social_icon"
+                                  ></i>
+                                  Social Media Package
+                                  <figure
+                                    class="menu_arrow"
+                                    style="color: #7570b8"
+                                  >
+                                    ➝
+                                  </figure>
+                                </a>
+                              </li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                    <ul class="drp">
+                      <li class="drp2"><a href="insight.html">Insights</a></li>
+                    </ul>
+                    <ul class="drp">
+                      <li class="drp2"><a href="careers.html">Careers</a></li>
+                    </ul>
+                  </nav>
+
+                  <div class="responsive_wrapper bdr2">
+                    <div class="items">
+                      <div
+                        class="mnu-itm menu_bar col-xl-auto col-md-auto my-auto"
+                        onclick="openMenu()"
+                        id="open_menubar"
+                      >
+                        <ion-icon
+                          name="menu-outline"
+                          role="img"
+                          class="md hydrated"
+                          aria-label="menu outline"
+                        ></ion-icon>
+                      </div>
+
+                      <div
+                        class="mnu-itm menu_bar col-xl-auto col-md-auto my-auto"
+                        onclick="closeMenu()"
+                        id="close_menubar"
+                      >
+                        <ion-icon
+                          name="close-outline"
+                          role="img"
+                          class="md hydrated"
+                          aria-label="close outline"
+                        ></ion-icon>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Header End -->
+    </div>
+    <main class="body_wrap">
+      <!-- Banner -->
+
+      <section class="specs mobile_app_banner">
+        <div class="fix_container">
+          <div class="banner_menu d_flx">
+            <div class="mh slideinleft">
+              <h1>
+                Start Your Success Journey with
+                <span class="theme_clr"> Mobile App Development Company </span>
+              </h1>
+              <p>
+                Join hands with high-skilled mobile app developers and curate
+                seamless digital transformation to stay<span class="blk_span">
+                  ahead of the curve.
+                </span>
+              </p>
+              <button>
+                <div class="wrap" id="showPopUp">
+                  <span class="quote_text"
+                    ><span class="sm-hide">Get</span> Free Consultation</span
+                  >
+                  <span class="arrow_right">
+                    <i>
+                      <svg
+                        version="1.2"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 22 15"
+                        width="22"
+                        height="15"
+                      >
+                        <title>Icon-ionic-ios-arrow-round-forward-svg</title>
+                        <path
+                          id="Icon_ionic-ios-arrow-round-forward"
+                          class="s0"
+                          d="m14.3 14.7q-0.1-0.1-0.2-0.3-0.1-0.2-0.1-0.3 0-0.2 0.1-0.4 0.1-0.2 0.2-0.3l4.5-4.5h-17.1q-0.4 0-0.7-0.3-0.3-0.3-0.3-0.7 0-0.4 0.3-0.7 0.3-0.2 0.7-0.3h17.1l-4.5-4.4q-0.2-0.2-0.2-0.4-0.1-0.1-0.1-0.3 0-0.2 0.1-0.4 0-0.2 0.2-0.3 0.1-0.1 0.3-0.2 0.2-0.1 0.4-0.1 0.1 0 0.3 0.1 0.2 0.1 0.3 0.2l6.1 6.1q0.1 0.1 0.1 0.1 0 0 0 0.1 0.1 0 0.1 0 0 0.1 0 0.1 0 0.1 0.1 0.1 0 0.1 0 0.1 0 0.1 0 0.1 0 0.1 0 0.1 0 0.1 0 0.2 0 0.1-0.1 0.2 0 0-0.1 0.1 0 0.1-0.1 0.2l-6.1 6.1q-0.1 0.1-0.3 0.2-0.1 0.1-0.3 0.1-0.2 0-0.4-0.1-0.2 0-0.3-0.2z"
+                        ></path>
+                      </svg>
+                    </i>
+                  </span>
+                </div>
+              </button>
+            </div>
+            <div class="mg slideinright">
+              <video
+                loop="true"
+                autoplay=""
+                muted=""
+                playsinline=""
+                src="assets/img/mobille_page.mp4"
+                __idm_id__="5791745"
+              ></video>
+              <figure>
+                <img src="assets/img/banner.webp" alt="image" />
+              </figure>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Offers -->
+
+      <section class="esc mbl_offers">
+        <div class="fix_container">
+          <div class="sb text-center">
+            <h2>
+              Elevate User Experience With Custom<span
+                class="theme_clr blk_span"
+              >
+                Mobile Application Development</span
+              >
+            </h2>
+            <p>
+              We offer mobile app development services for the modern era that
+              exceeds market norms and industry standards.
+            </p>
+          </div>
+          <div class="offers_menu">
+            <div class="offers_lt">
+              <figure class="offers_img">
+                <img src="assets/img/offers.webp" alt="Offers" />
+              </figure>
+            </div>
+            <ul class="offers_rt">
+              <li class="offers_bx">
+                <figure>
+                  <img src="assets/img/hire_icn.png" alt="Tick" />
+                </figure>
+                <h3>Cutting-Edge Digital Solutions</h3>
+              </li>
+              <li class="offers_bx">
+                <figure>
+                  <img src="assets/img/hire_icn.png" alt="Tick" />
+                </figure>
+                <h3>C-Suite Consultation</h3>
+              </li>
+              <li class="offers_bx">
+                <figure>
+                  <img src="assets/img/hire_icn.png" alt="Tick" />
+                </figure>
+                <h3>Next-Gen Designs For User Delight</h3>
+              </li>
+              <li class="offers_bx">
+                <figure>
+                  <img src="assets/img/hire_icn.png" alt="Tick" />
+                </figure>
+                <h3>Dedicated Mobile App Developers</h3>
+              </li>
+              <li class="offers_bx">
+                <figure>
+                  <img src="assets/img/hire_icn.png" alt="Tick" />
+                </figure>
+                <h3>Quality Assurance &amp; Testing</h3>
+              </li>
+              <li class="offers_bx">
+                <figure>
+                  <img src="assets/img/hire_icn.png" alt="Tick" />
+                </figure>
+                <h3>Agile methodology framework</h3>
+              </li>
+              <li class="offers_bx">
+                <figure>
+                  <img src="assets/img/hire_icn.png" alt="Tick" />
+                </figure>
+                <h3>Secured NDA Agreements</h3>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Shape -->
+
+      <section class="esc shape_menu">
+        <div class="fix_container shape_menu_div">
+          <div class="text-white sb text-center">
+            <h2>
+              Shaping The Digital Landscape With
+              <span class="blk_span"> Excellence &amp; Expertise </span>
+            </h2>
+            <p>
+              Our specialized procedure is designed for startups, mid-scale
+              businesses, and large enterprises to help
+              <span class="blk_span"
+                >them achieve fantastic results &amp; exceptional ROI.
+              </span>
+            </p>
+          </div>
+          <div class="shape_menu_line">
+            <div class="suite_line">
+              <i
+                data-500-top="height:50px;"
+                data-300-top=" height:200px;"
+                data--500-top="height:550px;"
+                data--700-top="height:900px;"
+                data--1000-top="height:1270px;"
+                class="skrollable skrollable-between"
+                style="height: 1270px"
+              ></i>
+            </div>
+            <ul class="shape_menu_ul">
+              <li class="shape_menu_li">
+                <div class="shape_menu_lt text-white">
+                  <span> 1 Step</span>
+                  <h3>Idea Validation</h3>
+                  <p>
+                    Share your project scope, goals, and technical requirements
+                    with us. The objective of this preliminary stage is to
+                    validate your app idea and make sure it has viability and
+                    success potential. This entails market research, determining
+                    your target market, and gauging the demand for your app. We
+                    construct a development schedule, a budget, and a plan for
+                    the project.
+                  </p>
+                </div>
+                <div class="shape_menu_rt">
+                  <figure>
+                    <img src="assets/img/Shape_1.webp" alt="image" />
+                  </figure>
+                </div>
+              </li>
+              <li class="shape_menu_li">
+                <div class="shape_menu_lt text-white">
+                  <span> 2 Step</span>
+                  <h3>Strategy Development</h3>
+                  <p>
+                    After your concept has been proven, we must create a
+                    thorough app strategy. We will execute a strategy that fits
+                    your business objective and budget. This includes outlining
+                    the functions and features of your app, developing user
+                    personas, and designing the user experience (UX). The
+                    platforms (iOS, Android, web) and technology stack
+                    (programming languages, frameworks, databases) you'll
+                    utilize to create the app must also be chosen.
+                  </p>
+                </div>
+                <div class="shape_menu_rt">
+                  <figure>
+                    <img src="assets/img/Shape_2.webp" alt="image" />
+                  </figure>
+                </div>
+              </li>
+              <li class="shape_menu_li">
+                <div class="shape_menu_lt text-white">
+                  <span> 3 Step</span>
+                  <h3>App Deployment</h3>
+                  <p>
+                    Our custom app developers curate the app infrastructure
+                    accordingly. The app is built in accordance with the
+                    guidelines established during the planning phase. Our
+                    developers and designers build the user interface (UI), add
+                    the app's features, and make sure everything runs properly.
+                    In this stage, databases, servers, and any other
+                    infrastructure required to run the app are also set up.
+                  </p>
+                </div>
+                <div class="shapr_menu_rt">
+                  <figure>
+                    <img src="assets/img/Shape_3.webp" alt="image" />
+                  </figure>
+                </div>
+              </li>
+              <li class="shape_menu_li">
+                <div class="shape_menu_lt text-white">
+                  <span> 4 Step</span>
+                  <h3>Launch &amp; Market</h3>
+                  <p>
+                    Post development, we handle the app launch and marketing
+                    aspects with you. We carry out a launch strategy once your
+                    app is finished and prepared for distribution. This entails
+                    developing marketing collateral, generating awareness via
+                    social media and press releases, and getting ready for the
+                    app store submission procedure. Maximizing downloads and
+                    visibility during the launch period is the objective.
+                  </p>
+                </div>
+                <div class="shape_menu_rt">
+                  <figure>
+                    <img src="assets/img/Shape_4.webp" alt="image" />
+                  </figure>
+                </div>
+              </li>
+              <li class="shape_menu_li">
+                <div class="shape_menu_lt text-white">
+                  <span> 5 Step</span>
+                  <h3>Final Testing</h3>
+                  <p>
+                    To make sure the app is free of errors and functions as
+                    intended, thorough testing is essential both before and
+                    after the launch. Our QA professionals take righteous action
+                    on data-driven analytics and insights. This covers testing
+                    for functionality, usability, and compatibility across a
+                    range of hardware and operating systems. Beta testing is
+                    used to find problems and gather important feedback for
+                    future improvements.
+                  </p>
+                </div>
+                <div class="shape_menu_rt">
+                  <figure>
+                    <img src="assets/img/Shape_5.webp" alt="image" />
+                  </figure>
+                </div>
+              </li>
+              <li class="shape_menu_li">
+                <div class="shape_menu_lt text-white">
+                  <span> 6 Step</span>
+                  <h3>Funding</h3>
+                  <p>
+                    To ensure the success and longevity of your app, financial
+                    management is crucial. We are glad to offer guidance in
+                    preparing your investor fund pitch. Personal savings, loans,
+                    investors, crowdsourcing, or grants are all potential
+                    funding options. It's crucial to remember that developing an
+                    app is an iterative process, and constant updates and
+                    upgrades are frequently required.
+                  </p>
+                </div>
+                <div class="shape_menu_rt">
+                  <figure>
+                    <img src="assets/img/Shape_6.webp" alt="image" />
+                  </figure>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <!-- mobile view -->
+          <div class="shape_menu_mob">
+            <div class="shape_menu_mobli">
+              <figure>
+                <img src="assets/img/Shape_1.webp" alt="image" />
+              </figure>
+              <h3>Idea Validation</h3>
+              <p>
+                Share your project scope, goals, and technical requirements with
+                us. The objective of this preliminary stage is to validate your
+                app idea and make sure it has viability and success potential.
+                This entails market research, determining your target market,
+                and gauging the demand for your app. We construct a development
+                schedule, a budget, and a plan for the project.
+              </p>
+            </div>
+            <div class="shape_menu_mobli">
+              <figure>
+                <img src="assets/img/Shape_2.webp" alt="image" />
+              </figure>
+              <h3>Strategy Development</h3>
+              <p>
+                After your concept has been proven, we must create a thorough
+                app strategy. We will execute a strategy that fits your business
+                objective and budget. This includes outlining the functions and
+                features of your app, developing user personas, and designing
+                the user experience (UX). The platforms (iOS, Android, web) and
+                technology stack (programming languages, frameworks, databases)
+                you'll utilize to create the app must also be chosen.
+              </p>
+            </div>
+            <div class="shape_menu_mobli">
+              <figure>
+                <img src="assets/img/Shape_3.webp" alt="image" />
+              </figure>
+              <h3>App Deployment</h3>
+              <p>
+                Our custom app developers curate the app infrastructure
+                accordingly. The app is built in accordance with the guidelines
+                established during the planning phase. Our developers and
+                designers build the user interface (UI), add the app's features,
+                and make sure everything runs properly. In this stage,
+                databases, servers, and any other infrastructure required to run
+                the app are also set up.
+              </p>
+            </div>
+            <div class="shape_menu_mobli">
+              <figure>
+                <img src="assets/img/Shape_4.webp" alt="image" />
+              </figure>
+              <h3>Launch & Market</h3>
+              <p>
+                Post development, we handle the app launch and marketing aspects
+                with you. We carry out a launch strategy once your app is
+                finished and prepared for distribution. This entails developing
+                marketing collateral, generating awareness via social media and
+                press releases, and getting ready for the app store submission
+                procedure. Maximizing downloads and visibility during the launch
+                period is the objective.
+              </p>
+            </div>
+            <div class="shape_menu_mobli">
+              <figure>
+                <img src="assets/img/Shape_5.webp" alt="image" />
+              </figure>
+              <h3>Final Testing</h3>
+              <p>
+                To make sure the app is free of errors and functions as
+                intended, thorough testing is essential both before and after
+                the launch. Our QA professionals take righteous action on
+                data-driven analytics and insights. This covers testing for
+                functionality, usability, and compatibility across a range of
+                hardware and operating systems. Beta testing is used to find
+                problems and gather important feedback for future improvements.
+              </p>
+            </div>
+            <div class="shape_menu_mobli">
+              <figure>
+                <img src="assets/img/Shape_6.webp" alt="image" />
+              </figure>
+              <h3>Funding</h3>
+              <p>
+                To ensure the success and longevity of your app, financial
+                management is crucial. We are glad to offer guidance in
+                preparing your investor fund pitch. Personal savings, loans,
+                investors, crowdsourcing, or grants are all potential funding
+                options. It's crucial to remember that developing an app is an
+                iterative process, and constant updates and upgrades are
+                frequently required.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Cta 1 -->
+
+      <section class="esc dev_cta">
+        <div class="fix_container">
+          <div class="nw_cta dev_cta_main text-white">
+            <h2>
+              Code Meets Creativity: Building
+              <span class="blk_span"> Apps that Inspire</span>
+            </h2>
+            <p>
+              Our mobile app development company is here to elevate your
+              <span class="blk_span">
+                business potential with future-ready and innovative apps.</span
+              >
+            </p>
+            <button>
+              <div class="wrap" id="showPopUp">
+                <span class="quote_text"
+                  ><span class="sm-hide"></span> Let's Develop Brilliance
+                </span>
+                <span class="arrow_right">
+                  <i>
+                    <svg
+                      version="1.2"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 22 15"
+                      width="22"
+                      height="15"
+                    >
+                      <title>Icon-ionic-ios-arrow-round-forward-svg</title>
+                      <path
+                        id="Icon_ionic-ios-arrow-round-forward"
+                        class="s0"
+                        d="m14.3 14.7q-0.1-0.1-0.2-0.3-0.1-0.2-0.1-0.3 0-0.2 0.1-0.4 0.1-0.2 0.2-0.3l4.5-4.5h-17.1q-0.4 0-0.7-0.3-0.3-0.3-0.3-0.7 0-0.4 0.3-0.7 0.3-0.2 0.7-0.3h17.1l-4.5-4.4q-0.2-0.2-0.2-0.4-0.1-0.1-0.1-0.3 0-0.2 0.1-0.4 0-0.2 0.2-0.3 0.1-0.1 0.3-0.2 0.2-0.1 0.4-0.1 0.1 0 0.3 0.1 0.2 0.1 0.3 0.2l6.1 6.1q0.1 0.1 0.1 0.1 0 0 0 0.1 0.1 0 0.1 0 0 0.1 0 0.1 0 0.1 0.1 0.1 0 0.1 0 0.1 0 0.1 0 0.1 0 0.1 0 0.1 0 0.1 0 0.2 0 0.1-0.1 0.2 0 0-0.1 0.1 0 0.1-0.1 0.2l-6.1 6.1q-0.1 0.1-0.3 0.2-0.1 0.1-0.3 0.1-0.2 0-0.4-0.1-0.2 0-0.3-0.2z"
+                      ></path>
+                    </svg>
+                  </i>
+                </span>
+              </div>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Modern Tech -->
+
+      <section class="esc modern_tech">
+        <div class="fix_container">
+          <div class="sb text-center text-white">
+            <h2>Modern Technologies For New-Age Apps</h2>
+            <p>
+              Leverage tried-and-trusted custom mobile application development
+              technologies to transform<span class="blk_span">
+                your business idea the best way.
+              </span>
+            </p>
+          </div>
+          <div class="modern_tech_fl">
+            <ul
+              class="nav nav-pills modern_tech_lt"
+              id="pills-tab"
+              role="tablist"
+              data-mouse="hover"
+            >
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  id="pills-home-tab"
+                  data-toggle="pill"
+                  href="#pills-home"
+                  role="tab"
+                  aria-controls="pills-home"
+                  aria-selected="true"
+                  >Internet of Things</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  id="pills-profile-tab"
+                  data-toggle="pill"
+                  href="#pills-profile"
+                  role="tab"
+                  aria-controls="pills-profile"
+                  aria-selected="false"
+                  >Blockchain</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  id="pills-contact-tab"
+                  data-toggle="pill"
+                  href="#pills-contact"
+                  role="tab"
+                  aria-controls="pills-contact"
+                  aria-selected="false"
+                  >AI/ML</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  id="pills-contact-tab"
+                  data-toggle="pill"
+                  href="#pills-cloud "
+                  role="tab"
+                  aria-controls="pills-cloud "
+                  aria-selected="false"
+                  >Cloud Computing</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  id="pills-contact-tab"
+                  data-toggle="pill"
+                  href="#pills-vr"
+                  role="tab"
+                  aria-controls="pills-vr"
+                  aria-selected="false"
+                  >AR/VR</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  id="pills-contact-tab"
+                  data-toggle="pill"
+                  href="#pills-mata"
+                  role="tab"
+                  aria-controls="pills-mata"
+                  aria-selected="false"
+                  >Metaverse</a
+                >
+              </li>
+            </ul>
+            <div class="modern_tech_rt">
+              <div class="tab-content">
+                <div
+                  class="tab-pane active in modern_tech_mn"
+                  id="pills-home"
+                  role="tabpanel"
+                  aria-labelledby="pills-home-tab"
+                >
+                  <div class="modern_tb_lt">
+                    <figure>
+                      <img
+                        src="assets/img/Internet-of-Things.webp"
+                        alt="image"
+                      />
+                    </figure>
+                  </div>
+                  <div class="modern_tb_rt text-white">
+                    <h2>Internet of Things</h2>
+                    <p>
+                      50% of enterprises are taking key steps enhancing IoT
+                      spending. "Internet of Things" is not just a technology;
+                      it's a network of all networks that put a profound impact
+                      on every aspect of business. IoT has the potential to
+                      transform the way we live but also how we work.
+                    </p>
+                    <p>
+                      Our team will keep an eye on business operations using
+                      IoT-enabled applications that assist corporate growth
+                      inside a secure and well-built infrastructure. A house of
+                      highly professional IoT developers provides consulting
+                      services, ensuring you get sound advice on leveraging
+                      IoT's power.
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="tab-pane modern_tech_mn"
+                  id="pills-profile"
+                  role="tabpanel"
+                  aria-labelledby="pills-profile-tab"
+                >
+                  <div class="modern_tb_lt">
+                    <figure>
+                      <img src="assets/img/Cloud-Computing.webp" alt="image" />
+                    </figure>
+                  </div>
+                  <div class="modern_tb_rt text-white">
+                    <h2>Blockchain</h2>
+                    <p>
+                      The global blockchain market size is projected to grow at
+                      an AGR of 40%. We understand the need for a safe and
+                      decentralized database. We are offering blockchain app
+                      development services based on the specifications,
+                      timeline, project size, and budget of your project.
+                    </p>
+                    <p>
+                      For all business applications, we offer end-to-end
+                      blockchain application testing and quality assurance
+                      services. To guarantee that your blockchain apps are
+                      tested on time, within your budget, and in accordance with
+                      all testing criteria, our team makes use of their
+                      knowledge in the application testing field.
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="tab-pane modern_tech_mn"
+                  id="pills-contact"
+                  role="tabpanel"
+                  aria-labelledby="pills-contact-tab"
+                >
+                  <div class="modern_tb_lt">
+                    <figure>
+                      <img src="assets/img/AI-ML.webp" alt="image" />
+                    </figure>
+                  </div>
+                  <div class="modern_tb_rt text-white">
+                    <h2>AI/ML</h2>
+                    <p>
+                      “Mobile app development X Machine Learning” is the next
+                      powerful mutation. We are well-versed with AI/ML
+                      technology to develop an advanced app with smart features
+                      like face recognition, bar code scanning, image labeling,
+                      word recognition, and predictive modeling.
+                    </p>
+                    <p>
+                      Our deep AI experience enables us to create cutting-edge
+                      AI solutions that address actual business issues. Our
+                      AI-powered software solutions give contemporary
+                      organizations the ability to automate workflows and
+                      improve operations. With our specialized artificial
+                      intelligence solutions suited to your company's
+                      requirements, propel your company toward success.
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="tab-pane modern_tech_mn"
+                  id="pills-cloud"
+                  role="tabpanel"
+                  aria-labelledby="pills-cloud-tab"
+                >
+                  <div class="modern_tb_lt">
+                    <figure>
+                      <img src="assets/img/Cloud-Computing.webp" alt="image" />
+                    </figure>
+                  </div>
+                  <div class="modern_tb_rt text-white">
+                    <h2>Cloud Computing</h2>
+                    <p>
+                      Cloud computing technology can increase your business
+                      scalability, security, and connectivity. Our mobile app
+                      development company incorporates cloud computing in the
+                      deployment of functional and responsive applications to
+                      carry out amazing programming.
+                    </p>
+                    <p>
+                      To guarantee that everything from business applications to
+                      integrated software and IT infrastructure is current and
+                      operates effectively, we provide end-to-end cloud-managed
+                      services. For our clients throughout the world, we provide
+                      a full variety of cloud consultation services, including
+                      cloud deployment, custom development, data migration,
+                      cloud modernization, audit, and testing services.
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="tab-pane modern_tech_mn"
+                  id="pills-vr"
+                  role="tabpanel"
+                  aria-labelledby="pills-vr-tab"
+                >
+                  <div class="modern_tb_lt">
+                    <figure>
+                      <img src="assets/img/AR-VR.webp" alt="image" />
+                    </figure>
+                  </div>
+                  <div class="modern_tb_rt text-white">
+                    <h2>AR/VR</h2>
+                    <p>
+                      AR/VR apps have flooded the Google Play Store and Apple
+                      App Store with great response. Give your Gen-Z users an
+                      immersive experience with high-end AR/VR mobile app
+                      development services and create a new vision.
+                    </p>
+                    <p>
+                      Our experts can help you maximize the potential of
+                      cutting-edge technology like AR and VR. We thrive at
+                      providing the most dependable, cutting-edge, and
+                      next-generation AR/VR programs together with detailed
+                      animated graphics. We use the most advanced tools to
+                      deliver scalable AR/VR apps with comprehensive features.
+                      We can transform the experiences you envision for your app
+                      into reality.
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="tab-pane modern_tech_mn"
+                  id="pills-mata"
+                  role="tabpanel"
+                  aria-labelledby="pills-contact-mata"
+                >
+                  <div class="modern_tb_lt">
+                    <figure>
+                      <img src="assets/img/Metavarse.webp" alt="image" />
+                    </figure>
+                  </div>
+                  <div class="modern_tb_rt text-white">
+                    <h2>Metaverse</h2>
+                    <p>
+                      The potential of metaverse applications in today's real
+                      world is completely endless. Hire experienced mobile app
+                      developers to build user-friendly, highly engaging, and
+                      intuitive metaverse applications with immersive virtual
+                      experiences. Without a flawless and powerful 3D
+                      visualization, no one would be compelled to indulge in the
+                      Metaserve.
+                    </p>
+                    <p>
+                      Utilize our 3D modeling services for the metaverse to draw
+                      users to your virtual presence. To safely expand your
+                      business into the metaverse, get in touch with our
+                      metaverse experts. By incorporating our business-focused
+                      metaverse technologies, you may create limitless business
+                      opportunities and experience flawless growth.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="button_main w-100 slider_button">
+              <button class="mx-auto">
+                <a href="#">
+                  <span class="quote_text">Learn More </span>
+                  <span class="arrow_right">
+                    <i
+                      ><span class="material-symbols-outlined">
+                        trending_flat
+                      </span></i
+                    >
+                  </span>
+                </a>
+              </button>
+            </div>
+          </div>
+          <!-- mobile view -->
+          <div class="modern_btn_cta">
+            <div class="modern_tech_mb">
+              <div class="modern_mb_lst">
+                <figure>
+                  <img src="assets/img/Internet-of-Things.webp" alt="image" />
+                </figure>
+                <h2>Internet of Things</h2>
+                <p>
+                  50% of enterprises are taking key steps enhancing IoT
+                  spending. "Internet of Things" is not just a technology; it's
+                  a network of all networks that put a profound impact on every
+                  aspect of business. IoT has the potential to transform the way
+                  we live but also how we work.
+                </p>
+                <p>
+                  Our team will keep an eye on business operations using
+                  IoT-enabled applications that assist corporate growth inside a
+                  secure and well-built infrastructure. A house of highly
+                  professional IoT developers provides consulting services,
+                  ensuring you get sound advice on leveraging IoT's power.
+                </p>
+              </div>
+              <div class="modern_mb_lst">
+                <figure>
+                  <img src="assets/img/Cloud-Computing.webp" alt="image" />
+                </figure>
+                <h2>Blockchain</h2>
+                <p>
+                  The global blockchain market size is projected to grow at an
+                  AGR of 40%. We understand the need for a safe and
+                  decentralized database. We are offering blockchain app
+                  development services based on the specifications, timeline,
+                  project size, and budget of your project.
+                </p>
+                <p>
+                  For all business applications, we offer end-to-end blockchain
+                  application testing and quality assurance services. To
+                  guarantee that your blockchain apps are tested on time, within
+                  your budget, and in accordance with all testing criteria, our
+                  team makes use of their knowledge in the application testing
+                  field.
+                </p>
+              </div>
+              <div class="modern_mb_lst">
+                <figure>
+                  <img src="assets/img/Internet-of-Things.webp" alt="image" />
+                </figure>
+                <h2>AI/ML</h2>
+                <p>
+                  “Mobile app development X Machine Learning” is the next
+                  powerful mutation. We are well-versed with AI/ML technology to
+                  develop an advanced app with smart features like face
+                  recognition, bar code scanning, image labeling, word
+                  recognition, and predictive modeling.
+                </p>
+                <p>
+                  Our deep AI experience enables us to create cutting-edge AI
+                  solutions that address actual business issues. Our AI-powered
+                  software solutions give contemporary organizations the ability
+                  to automate workflows and improve operations. With our
+                  specialized artificial intelligence solutions suited to your
+                  company's requirements, propel your company toward success.
+                </p>
+              </div>
+              <div class="modern_mb_lst">
+                <figure>
+                  <img src="assets/img/Cloud-Computing.webp" alt="image" />
+                </figure>
+                <h2>Cloud Computing</h2>
+                <p>
+                  Cloud computing technology can increase your business
+                  scalability, security, and connectivity. Our mobile app
+                  development company incorporates cloud computing in the
+                  deployment of functional and responsive applications to carry
+                  out amazing programming.
+                </p>
+                <p>
+                  To guarantee that everything from business applications to
+                  integrated software and IT infrastructure is current and
+                  operates effectively, we provide end-to-end cloud-managed
+                  services. For our clients throughout the world, we provide a
+                  full variety of cloud consultation services, including cloud
+                  deployment, custom development, data migration, cloud
+                  modernization, audit, and testing services.
+                </p>
+              </div>
+              <div class="modern_mb_lst">
+                <figure>
+                  <img src="assets/img/AR-VR.webp" alt="image" />
+                </figure>
+                <h2>AR/VR</h2>
+                <p>
+                  AR/VR apps have flooded the Google Play Store and Apple App
+                  Store with great response. Give your Gen-Z users an immersive
+                  experience with high-end AR/VR mobile app development services
+                  and create a new vision.
+                </p>
+                <p>
+                  Our experts can help you maximize the potential of
+                  cutting-edge technology like AR and VR. We thrive at providing
+                  the most dependable, cutting-edge, and next-generation AR/VR
+                  programs together with detailed animated graphics. We use the
+                  most advanced tools to deliver scalable AR/VR apps with
+                  comprehensive features. We can transform the experiences you
+                  envision for your app into reality.
+                </p>
+              </div>
+              <div class="modern_mb_lst">
+                <figure>
+                  <img src="assets/img/Metavarse.webp" alt="image" />
+                </figure>
+                <h2>Metaverse</h2>
+                <p>
+                  The potential of metaverse applications in today's real world
+                  is completely endless. Hire experienced mobile app developers
+                  to build user-friendly, highly engaging, and intuitive
+                  metaverse applications with immersive virtual experiences.
+                  Without a flawless and powerful 3D visualization, no one would
+                  be compelled to indulge in the Metaserve.
+                </p>
+                <p>
+                  Utilize our 3D modeling services for the metaverse to draw
+                  users to your virtual presence. To safely expand your business
+                  into the metaverse, get in touch with our metaverse experts.
+                  By incorporating our business-focused metaverse technologies,
+                  you may create limitless business opportunities and experience
+                  flawless growth.
+                </p>
+              </div>
+            </div>
+            <div class="button_main w-100 mb-5 slider_button">
+              <button class="mx-auto">
+                <a href="#">
+                  <span class="quote_text">Learn More </span>
+                  <span class="arrow_right">
+                    <i
+                      ><span class="material-symbols-outlined">
+                        trending_flat
+                      </span></i
+                    >
+                  </span>
+                </a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Your Vision -->
+
+      <section class="esc vision_sec">
+        <div class="fix_container">
+          <div class="sb text-center">
+            <h2>Your Vision, Our Expertise</h2>
+            <p>
+              Our tech-driven custom app developers always stay on their toes to
+              build the best mobile
+              <span class="blk_span"
+                >application to help you achieve exponential growth in the
+                market. We bring the best for you!<span> </span
+              ></span>
+            </p>
+          </div>
+          <div class="vision_sec_slider">
+            <div
+              class="vision_item text-white"
+              style="
+                background-image: linear-gradient(to right, #ff9c71, #7e462d);
+              "
+            >
+              <h3>
+                Custom Mobile
+                <span class="blk_span"> Application Development </span>
+              </h3>
+              <p>
+                We develop solutions that are specifically created to satisfy
+                your goals and specifications while offering a distinctive app
+                experience. Our custom mobile application development company
+                creates highly effective and aesthetically pleasing apps for iOS
+                and Android stores.
+              </p>
+            </div>
+            <div
+              class="vision_item text-white"
+              style="
+                background-image: linear-gradient(to right, #f84183, #802948);
+              "
+            >
+              <h3>
+                Android Mobile<span class="blk_span"> App Development</span>
+              </h3>
+              <p>
+                We curate web-based Android applications to cater to a large
+                audience of Android users. Our mobile app development company is
+                an expert at creating high-end native apps utilizing modern,
+                platform-specific programming languages and tools that adhere to
+                all performance metrics.
+              </p>
+            </div>
+            <div
+              class="vision_item text-white"
+              style="
+                background-image: linear-gradient(to right, #7c72ff, #534daf);
+              "
+            >
+              <h3>
+                iPhone Mobile <span class="blk_span">App Development </span>
+              </h3>
+              <p>
+                Our expert team designs cutting-edge and future-ready
+                applications that maximize engagement with iPhone users. When
+                developing iOS apps, our skilled developers use advanced tools
+                like Swift and Objective-C to meet each client's specific needs.
+              </p>
+            </div>
+            <div
+              class="vision_item text-white"
+              style="
+                background-image: linear-gradient(to right, #22dbc2, #298065);
+              "
+            >
+              <h3>
+                Hybrid Mobile App
+                <span class="blk_span"> Development Services </span>
+              </h3>
+              <p>
+                By combining native and web app technologies in a novel way, you
+                can acquire very useful cross-platform apps that excel in a
+                variety of settings. You can create hybrid or cross-platform
+                apps with our hybrid mobile app development services to cater a
+                variety of platforms.
+              </p>
+            </div>
+          </div>
+          <div class="button_main w-100 mb-5 slider_button">
+            <button class="mx-auto">
+              <a href="#">
+                <span class="quote_text"> Build Your App Today</span>
+                <span class="arrow_right">
+                  <i
+                    ><span class="material-symbols-outlined">
+                      trending_flat
+                    </span></i
+                  >
+                </span>
+              </a>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Methodology -->
+
+      <section class="esc meth_sec">
+        <div class="fix_container">
+          <div class="sb text-center">
+            <h2>
+              We Follow A Power-Packed
+              <span class="blk_span"> App Development Methodology </span>
+            </h2>
+            <p>
+              Our technical process sets us apart, we utilize the latest
+              programming languages to ensure your
+              <span class="blk_span">
+                app stands out with exceptional functionality and performance.
+              </span>
+            </p>
+          </div>
+          <div class="d_flx tech_us">
+            <div
+              class="nav nav-pills"
+              id="techno_tab"
+              role="tablist"
+              aria-orientation="vertical"
+              data-mouse="hover"
+            >
+              <button
+                class="nav-link active"
+                id="techno_1-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#techno_tab-1"
+                type="button"
+                role="tab"
+                aria-controls="techno_1-tab"
+                aria-selected="true"
+                tabindex="-1"
+              >
+                <span>Data Protection</span>
+              </button>
+              <button
+                class="nav-link"
+                id="techno_2-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#techno_tab-2"
+                type="button"
+                role="tab"
+                aria-controls="techno_2-tab"
+                aria-selected="false"
+                tabindex="-1"
+              >
+                <span>Agile Development</span>
+              </button>
+              <button
+                class="nav-link"
+                id="techno_3-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#techno_tab-3"
+                type="button"
+                role="tab"
+                aria-controls="techno_3-tab"
+                aria-selected="false"
+                tabindex="-1"
+              >
+                <span>On-Time Delivery</span>
+              </button>
+              <button
+                class="nav-link"
+                id="techno_4-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#techno_tab-4"
+                type="button"
+                role="tab"
+                aria-controls="techno_4-tab"
+                aria-selected="false"
+                tabindex="-1"
+              >
+                <span>Quality First Approach</span>
+              </button>
+              <button
+                class="nav-link"
+                id="techno_5-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#techno_tab-5"
+                type="button"
+                role="tab"
+                aria-controls="techno_5-tab"
+                aria-selected="false"
+                tabindex="-1"
+              >
+                <span>Easy Communication</span>
+              </button>
+              <button
+                class="nav-link"
+                id="techno_6-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#techno_tab-6"
+                type="button"
+                role="tab"
+                aria-controls="techno_5-tab"
+                aria-selected="false"
+                tabindex="-1"
+              >
+                <span>24/7 Technical Support</span>
+              </button>
+            </div>
+            <div class="tab-content" id="techno_tabContent">
+              <div
+                class="tab-pane active"
+                id="techno_tab-1"
+                role="tabpanel"
+                aria-labelledby="techno_1-tab"
+                tabindex="0"
+              >
+                <div class="process_mn">
+                  <div class="process_lft">
+                    <h2>01</h2>
+                    <figure>
+                      <img src="assets/img/data-protection.webp" alt="image" />
+                    </figure>
+                  </div>
+                  <div class="process_ryt">
+                    <figure>
+                      <img src="assets/img/div_icn.svg" alt="image" />
+                    </figure>
+                    <h3>Data Protection</h3>
+                    <p>
+                      We employ built-in security safeguards to protect the
+                      clients' information and never disclose their original
+                      ideas.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tab-pane"
+                id="techno_tab-2"
+                role="tabpanel"
+                aria-labelledby="techno_2-tab"
+                tabindex="0"
+              >
+                <div class="process_mn">
+                  <div class="process_lft">
+                    <h2>02</h2>
+                    <figure>
+                      <img
+                        src="assets/img/Agile-Development.webp"
+                        alt="image"
+                      />
+                    </figure>
+                  </div>
+                  <div class="process_ryt">
+                    <figure>
+                      <img src="assets/img/Agile-Development.svg" alt="image" />
+                    </figure>
+                    <h3>Agile Development</h3>
+                    <p>
+                      We use AGILE methodologies to complete the projects in
+                      time using fewer resources and offering cost-effective
+                      solutions.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tab-pane"
+                id="techno_tab-3"
+                role="tabpanel"
+                aria-labelledby="techno_3-tab"
+                tabindex="0"
+              >
+                <div class="process_mn">
+                  <div class="process_lft">
+                    <h2>03</h2>
+                    <figure>
+                      <img src="assets/img/On-Time-Delivery.webp" alt="image" />
+                    </figure>
+                  </div>
+                  <div class="process_ryt">
+                    <figure>
+                      <img src="assets/img/On-Time-Delivery.svg" alt="image" />
+                    </figure>
+                    <h3>On-Time Delivery</h3>
+                    <p>
+                      We have employed approaches to cut down on the time
+                      required for app development. We use Flutter and React
+                      Native tools to achieve this goal.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tab-pane"
+                id="techno_tab-4"
+                role="tabpanel"
+                aria-labelledby="techno_4-tab"
+                tabindex="0"
+              >
+                <div class="process_mn">
+                  <div class="process_lft">
+                    <h2>04</h2>
+                    <figure>
+                      <img
+                        src="assets/img/quality_first_approach.webp"
+                        alt="image"
+                      />
+                    </figure>
+                  </div>
+                  <div class="process_ryt">
+                    <figure>
+                      <img
+                        src="assets/img/Quality-First-Approach.svg"
+                        alt="image"
+                      />
+                    </figure>
+                    <h3>Quality First Approach</h3>
+                    <p>
+                      It goes without saying, we choose quality over everything.
+                      No app leaves our premises without being thoroughly tested
+                      for 100% assurance.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tab-pane"
+                id="techno_tab-5"
+                role="tabpanel"
+                aria-labelledby="techno_5-tab"
+                tabindex="0"
+              >
+                <div class="process_mn">
+                  <div class="process_lft">
+                    <h2>05</h2>
+                    <figure>
+                      <img
+                        src="assets/img/Easy-Communication.webp"
+                        alt="image"
+                      />
+                    </figure>
+                  </div>
+                  <div class="process_ryt">
+                    <figure>
+                      <img
+                        src="assets/img/Easy-Communication.svg"
+                        alt="image"
+                      />
+                    </figure>
+                    <h3>Easy Communication</h3>
+                    <p>
+                      We foster transparency and open communication with clients
+                      throughout the process to modify our mobile app
+                      development services accordingly.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tab-pane"
+                id="techno_tab-6"
+                role="tabpanel"
+                aria-labelledby="techno_6-tab"
+                tabindex="0"
+              >
+                <div class="process_mn">
+                  <div class="process_lft">
+                    <h2>06</h2>
+                    <figure>
+                      <img
+                        src="assets/img/247-Technical-Support.webp"
+                        alt="image"
+                      />
+                    </figure>
+                  </div>
+                  <div class="process_ryt">
+                    <figure>
+                      <img src="assets/img/On-Time-Delivery.svg" alt="image" />
+                    </figure>
+                    <h3>24/7 Technical Support</h3>
+                    <p>
+                      We serve our clients even after deploying the app. You can
+                      connect with us anytime and our experts will reach out to
+                      you.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- mobile view -->
+          <div class="meth_mob">
+            <div class="meth_mob_li">
+              <figure>
+                <img src="assets/img/data-protection.webp" alt="image" />
+              </figure>
+              <h3>Data Protection</h3>
+              <p>
+                We employ built-in security safeguards to protect the clients'
+                information and never disclose their original ideas.
+              </p>
+            </div>
+            <div class="meth_mob_li">
+              <figure>
+                <img src="assets/img/Agile-Development.webp" alt="image" />
+              </figure>
+              <h3>Agile Development</h3>
+              <p>
+                We use AGILE methodologies to complete the projects in time
+                using fewer resources and offering cost-effective solutions.
+              </p>
+            </div>
+            <div class="meth_mob_li">
+              <figure>
+                <img src="assets/img/On-Time-Delivery.webp" alt="image" />
+              </figure>
+              <h3>On-Time Delivery</h3>
+              <p>
+                We have employed approaches to cut down on the time required for
+                app development. We use Flutter and React Native tools to
+                achieve this goal.
+              </p>
+            </div>
+            <div class="meth_mob_li">
+              <figure>
+                <img src="assets/img/quality_first_approach.webp" alt="image" />
+              </figure>
+              <h3>Quality First Approach</h3>
+              <p>
+                It goes without saying, we choose quality over everything. No
+                app leaves our premises without being thoroughly tested for 100%
+                assurance.
+              </p>
+            </div>
+            <div class="meth_mob_li">
+              <figure>
+                <img src="assets/img/Easy-Communication.webp" alt="image" />
+              </figure>
+              <h3>Easy Communication</h3>
+              <p>
+                We foster transparency and open communication with clients
+                throughout the process to modify our mobile app development
+                services accordingly.
+              </p>
+            </div>
+            <div class="meth_mob_li">
+              <figure>
+                <img src="assets/img/247-Technical-Support.webp" alt="image" />
+              </figure>
+              <h3>24/7 Technical Support</h3>
+              <p>
+                We serve our clients even after deploying the app. You can
+                connect with us anytime and our experts will reach out to you.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Cta 2 -->
+
+      <section class="esc challenge_cta">
+        <div class="fix_container">
+          <div class="nw_cta_2 text-white challenge_main">
+            <div class="challenge_lft">
+              <h2>
+                Custom <span class="blck_mbl">Mobile App Development</span> to
+                <span class="blk_span"
+                  >Meet Business-Specific Challenges
+                  <p>
+                    Our experienced custom app developers will help you
+                    transform your
+                    <span class="blk_span"
+                      >business digitally with an ubermodern tech suite.</span
+                    >
+                  </p>
+                  <div class="button_main w-100 slider_button">
+                    <button class="mx-auto">
+                      <a href="#">
+                        <span class="quote_text"> Start a Discussion</span>
+                        <span class="arrow_right">
+                          <i
+                            ><span class="material-symbols-outlined">
+                              trending_flat
+                            </span></i
+                          >
+                        </span>
+                      </a>
+                    </button>
+                  </div>
+                </span>
+              </h2>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Launch -->
+
+      <section class="esc launch_sec">
+        <div class="fix_container">
+          <div class="launch_main">
+            <div class="launch_lft">
+              <figure>
+                <img src="assets/img/launch.webp" alt="image" />
+              </figure>
+            </div>
+            <div class="launch_ryt">
+              <h4>
+                Create a Buzz Around Your
+                <span class="blk_span">Business App Prior to Its Launch</span>
+              </h4>
+              <p>
+                Leverage our pre-launch and post-launch marketing services to
+                generate excitement around your solution. Increase the
+                anticipation of your users and give them more than what they
+                want. Businesses with a pre-launch marketing strategy have 25%
+                more chances of launching a well-rounded product.
+              </p>
+              <div class="button_main w-100 slider_button">
+                <button class="mx-auto">
+                  <a href="#">
+                    <span class="quote_text"> Grow Your Brand</span>
+                    <span class="arrow_right">
+                      <i
+                        ><span class="material-symbols-outlined">
+                          trending_flat
+                        </span></i
+                      >
+                    </span>
+                  </a>
+                </button>
+              </div>
+            </div>
+          </div>
+          <ul class="launch_inner">
+            <li class="launch_lst">
+              <figure>
+                <img src="assets/img/better_everything.webp" alt="image" />
+              </figure>
+              <div class="launch_content">
+                <h3>Pre-Launch Marketing</h3>
+                <p>
+                  Our marketing wizards perform extensive research on the
+                  targeted audience and competitors to come up with the best
+                  pre-launch marketing campaigns.
+                </p>
+              </div>
+            </li>
+            <li class="launch_lst">
+              <figure>
+                <img src="assets/img/focus.png" alt="image" />
+              </figure>
+              <div class="launch_content">
+                <h3>Post-Launch Marketing</h3>
+                <p>
+                  Post-launch marketing campaigns help to increase your app’s
+                  visibility and reach. Combined with the ASO best practices,
+                  Apptunix ensures more app installs, better engagement, and
+                  increased revenue growth.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Launch 2 -->
+
+      <section class="esc launch2_sec">
+        <div class="fix_container">
+          <div class="launch2_main">
+            <div class="launch2_ryt">
+              <h4>
+                Everything You Need
+                <span class="blk_span">To Build, Deploy & Launch </span> An
+                Outstanding App
+              </h4>
+              <p>
+                Startups- With user-friendly features and a smooth interface,
+                our mobile app development company empowers entrepreneurs to
+                upend the market, enthrall audiences, and fuel exponential
+                growth.
+              </p>
+              <p>
+                SMEs- We support SMEs in developing mobile apps that are
+                centered on their unique needs. Hire dedicated mobile app
+                developers to create native, cross-platform, or hybrid apps.
+              </p>
+              <p>
+                Enterprises- Global businesses get a competitive edge with our
+                enterprise mobile app development services engineered with smart
+                technology, strong security protocols, and scalable
+                architectures to achieve high trademarks.
+              </p>
+            </div>
+            <div class="launch2_lft">
+              <video
+                loop="true"
+                autoplay=""
+                muted=""
+                playsinline=""
+                src="assets/img/video_two.mp4"
+              ></video>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Works -->
+
+      <section class="work_sec">
+        <div class="fix_container">
+          <div class="work_mn">
+            <h2>Great Ideas. Brilliantly Executed.</h2>
+            <p>
+              We are committed to delivering projects on time and meeting
+              <span class="blk_span"
+                >deadlines with the utmost diligence.
+              </span>
+            </p>
+          </div>
+          <figure>
+            <img src="assets/img/doted_line.webp" />
+          </figure>
+          <ul class="work_ul">
+            <li class="work_li">
+              <h2>10+</h2>
+              <p>
+                Years of Experience in<span class="blk_span">
+                  Mobile App Development
+                </span>
+              </p>
+            </li>
+            <li class="work_li">
+              <h2>30+</h2>
+              <p>
+                Multi-Million Dollar
+                <span class="blk_span">Businesses Built </span>
+              </p>
+            </li>
+            <li class="work_li">
+              <h2>100+</h2>
+              <p>
+                Skilled Professionals at<span class="blk_span">
+                  Your Service
+                </span>
+              </p>
+            </li>
+            <li class="work_li">
+              <h2>500+</h2>
+              <p>
+                Custom App Solutions <span class="blk_span">Delivered </span>
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Cta 3 -->
+
+      <section class="esc cta3_sec">
+        <div class="fix_container">
+          <div class="nw_cta3 text-white text-center">
+            <h2>Let's Make Your Dream Happen!</h2>
+            <p>
+              Grow your brand engagement with an intuitive, creative, and
+              interactive mobile app.
+            </p>
+            <div class="button_main w-100 slider_button">
+              <button class="mx-auto">
+                <a href="#">
+                  <span class="quote_text"> Explore Pricing</span>
+                  <span class="arrow_right">
+                    <i
+                      ><span class="material-symbols-outlined">
+                        trending_flat
+                      </span></i
+                    >
+                  </span>
+                </a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- App Gallery -->
+
+      <section class="esc">
+        <div class="fix_container">
+          <div class="sb text-center">
+            <h2>Transforming 20+ Industries With Innovation</h2>
+            <p>
+              We have been delivering stellar mobile app development services
+              for a decade now. As a top mobile application development company,
+              Apptunix has architected and maintained thousands of apps for
+              VC-backed startups, government organizations, and Fortune 500
+              companies worldwide.
+            </p>
+          </div>
+          <ul class="app_gallery_lst d_flx">
+            <li class="app_gallery_bx flip-card">
+              <div class="flip-card-inner">
+                <div
+                  class="flip-card-front"
+                  style="background: url('/assets/img/education-app.webp')"
+                >
+                  <div class="app_gallery_inner"><h3>Education</h3></div>
+                </div>
+                <div
+                  class="flip-card-back"
+                  style="background: url('/assets/img/education-app.webp')"
+                >
+                  >
+                  <p>
+                    As a leading education app development company, we helped
+                    investors redefine learning through an integrated set of
+                    eLearning elements, tools, and resources.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li class="app_gallery_bx flip-card">
+              <div class="flip-card-inner">
+                <div
+                  class="flip-card-front"
+                  style="background: url('/assets/img/innovative2.webp')"
+                >
+                  <div class="app_gallery_inner"><h3>Fitness</h3></div>
+                </div>
+                <div
+                  class="flip-card-back"
+                  style="background: url('/assets/img/innovative2.webp')"
+                >
+                  <p>
+                    We employ the most sophisticated technologies to help you
+                    create, market, and support your fitness solution in order
+                    to make you stand apart from your competitors.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li class="app_gallery_bx flip-card">
+              <div class="flip-card-inner">
+                <div
+                  class="flip-card-front"
+                  style="background: url('/assets/img/innovative3.webp')"
+                >
+                  <div class="app_gallery_inner"><h3>Logistics</h3></div>
+                </div>
+                <div
+                  class="flip-card-back"
+                  style="background: url('/assets/img/innovative3.webp')"
+                >
+                  <p>
+                    Simplify highly challenging and complex logistics &
+                    transport services easily through comprehensive logistics
+                    app development solutions.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li class="app_gallery_bx flip-card">
+              <div class="flip-card-inner">
+                <div
+                  class="flip-card-front"
+                  style="background: url('/assets/img/innovative4.webp')"
+                >
+                  <div class="app_gallery_inner"><h3>Dating</h3></div>
+                </div>
+                <div
+                  class="flip-card-back"
+                  style="background: url('/assets/img/innovative4.webp')"
+                >
+                  <p>
+                    Establish a unique brand identity and help people meet their
+                    perfect matches through custom, readymade, or white-label
+                    dating app development solutions.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li class="app_gallery_bx flip-card">
+              <div class="flip-card-inner">
+                <div
+                  class="flip-card-front"
+                  style="background: url('/assets/img/innovative5.webp')"
+                >
+                  <div class="app_gallery_inner"><h3>Social Media</h3></div>
+                </div>
+                <div
+                  class="flip-card-back"
+                  style="background: url('/assets/img/innovative5.webp')"
+                >
+                  <p>
+                    Hire mobile app developers to utilize advanced technology
+                    and integrate analytics tools into your social media app to
+                    engage and retain users.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li class="app_gallery_bx flip-card">
+              <div class="flip-card-inner">
+                <div
+                  class="flip-card-front"
+                  style="background: url('/assets/img/innovative6.webp')"
+                >
+                  <div class="app_gallery_inner"><h3>Finance</h3></div>
+                </div>
+                <div
+                  class="flip-card-back"
+                  style="background: url('/assets/img/innovative6.webp')"
+                >
+                  <p>
+                    Leverage end-to-end world-class & highly secure fintech app
+                    development solutions for various industry verticals as per
+                    your diverse business needs.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li class="app_gallery_bx flip-card">
+              <div class="flip-card-inner">
+                <div
+                  class="flip-card-front"
+                  style="background: url('/assets/img/innovative7.webp')"
+                >
+                  <div class="app_gallery_inner"><h3>Gaming</h3></div>
+                </div>
+                <div
+                  class="flip-card-back"
+                  style="background: url('/assets/img/innovative7.webp')"
+                >
+                  <p>
+                    Let your users ride the wave of VR and metaverse gaming
+                    through full-cycle and addictive mobile game app development
+                    solutions.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li class="app_gallery_bx flip-card">
+              <div class="flip-card-inner">
+                <div
+                  class="flip-card-front"
+                  style="background: url('/assets/img/innovative8.webp')"
+                >
+                  <div class="app_gallery_inner"><h3>Healthcare</h3></div>
+                </div>
+                <div
+                  class="flip-card-back"
+                  style="background: url('/assets/img/innovative8.webp')"
+                >
+                  <p>
+                    Reap the benefits of fully-fledged healthcare app
+                    development services to offer the best medical care while
+                    improving efficiency & lowering operations costs.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li class="app_gallery_bx flip-card">
+              <div class="flip-card-inner">
+                <div
+                  class="flip-card-front"
+                  style="background: url('/assets/img/innovative9.webp')"
+                >
+                  <div class="app_gallery_inner"><h3>Sports Betting</h3></div>
+                </div>
+                <div
+                  class="flip-card-back"
+                  style="background: url('/assets/img/innovative9.webp')"
+                >
+                  <p>
+                    Rule the sports betting app market with high-grade and
+                    user-friendly sports betting app development solutions
+                    empowered by next-gen technology.
+                  </p>
+                </div>
+              </div>
+            </li>
+          </ul>
+          <!--mobile view-->
+          <ul class="app_gallery_lst_mbl d_flx">
+            <li class="app_gallery_bx_mb flip-card">
+              <figure>
+                <img src="assets/img/education-app.webp" alt="image" />
+              </figure>
+              <div class="app_gallery_inner">
+                <h3>Education</h3>
+                <p>
+                  As a leading education app development company, we helped
+                  investors redefine learning through an integrated set of
+                  eLearning elements, tools, and resources.
+                </p>
+              </div>
+            </li>
+            <li class="app_gallery_bx_mb flip-card">
+              <figure>
+                <img src="assets/img/innovative2.webp" alt="image" />
+              </figure>
+              <div class="app_gallery_inner">
+                <h3>Fitness</h3>
+                <p>
+                  We employ the most sophisticated technologies to help you
+                  create, market, and support your fitness solution in order to
+                  make you stand apart from your competitors.
+                </p>
+              </div>
+            </li>
+            <li class="app_gallery_bx_mb flip-card">
+              <figure>
+                <img src="assets/img/innovative3.webp" alt="image" />
+              </figure>
+              <div class="app_gallery_inner">
+                <h3>Logistics</h3>
+                <p>
+                  Simplify highly challenging and complex logistics & transport
+                  services easily through comprehensive logistics app
+                  development solutions.
+                </p>
+              </div>
+            </li>
+            <li class="app_gallery_bx_mb flip-card">
+              <figure>
+                <img src="assets/img/innovative4.webp" alt="image" />
+              </figure>
+              <div class="app_gallery_inner">
+                <h3>Dating</h3>
+                <p>
+                  Establish a unique brand identity and help people meet their
+                  perfect matches through custom, readymade, or white-label
+                  dating app development solutions.
+                </p>
+              </div>
+            </li>
+            <li class="app_gallery_bx_mb flip-card">
+              <figure>
+                <img src="assets/img/innovative5.webp" alt="image" />
+              </figure>
+              <div class="app_gallery_inner">
+                <h3>Social Media</h3>
+                <p>
+                  Hire mobile app developers to utilize advanced technology and
+                  integrate analytics tools into your social media app to engage
+                  and retain users.
+                </p>
+              </div>
+            </li>
+            <li class="app_gallery_bx_mb flip-card">
+              <figure>
+                <img src="assets/img/innovative6.webp" alt="image" />
+              </figure>
+              <div class="app_gallery_inner">
+                <h3>Finance</h3>
+                <p>
+                  Leverage end-to-end world-class & highly secure fintech app
+                  development solutions for various industry verticals as per
+                  your diverse business needs.
+                </p>
+              </div>
+            </li>
+            <li class="app_gallery_bx_mb flip-card">
+              <figure>
+                <img src="assets/img/innovative7.webp" alt="image" />
+              </figure>
+              <div class="app_gallery_inner">
+                <h3>Gaming</h3>
+                <p>
+                  Let your users ride the wave of VR and metaverse gaming
+                  through full-cycle and addictive mobile game app development
+                  solutions.
+                </p>
+              </div>
+            </li>
+            <li class="app_gallery_bx_mb flip-card">
+              <figure>
+                <img src="assets/img/innovative8.webp" alt="image" />
+              </figure>
+              <div class="app_gallery_inner">
+                <h3>Healthcare</h3>
+                <p>
+                  Reap the benefits of fully-fledged healthcare app development
+                  services to offer the best medical care while improving
+                  efficiency & lowering operations costs.
+                </p>
+              </div>
+            </li>
+            <li class="app_gallery_bx_mb flip-card">
+              <figure>
+                <img src="assets/img/innovative9.webp" alt="image" />
+              </figure>
+              <div class="app_gallery_inner">
+                <h3>Sports Betting</h3>
+                <p>
+                  Rule the sports betting app market with high-grade and
+                  user-friendly sports betting app development solutions
+                  empowered by next-gen technology.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <script>
+      function openMenu() {
+        document.getElementById("menu").style.height = "80vh";
+        document.getElementById("menu").style.opacity = "1";
+        document.getElementById("menu").style.visibility = "1";
+        document.getElementById("menu").style.zIndex = "20";
+        document.getElementById("open_menubar").style.display = "none";
+        document.getElementById("close_menubar").style.display = "flex";
+      }
+      function closeMenu() {
+        document.getElementById("menu").style.height = "0";
+        document.getElementById("menu").style.opacity = "0";
+        document.getElementById("menu").style.visibility = "0";
+        document.getElementById("menu").style.zIndex = "-1";
+        document.getElementById("open_menubar").style.display = "flex";
+        document.getElementById("close_menubar").style.display = "none";
+      }
+    </script>
+  </body>
+</html>
