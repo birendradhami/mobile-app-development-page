@@ -456,7 +456,7 @@ main {
   left: -83px;
   width: 70px;
   height: 100%;
-  background: url("../assets/img/banner_circle.svg") center/contain no-repeat;
+  background: url("../img/banner_circle.svg") center/contain no-repeat;
 }
 
 .mh h1 {
@@ -803,7 +803,7 @@ img {
 .offers_menu:after {
   position: absolute;
   content: "";
-  background: url("../assets/img/banner_rect.svg");
+  background: url("../img/banner_rect.svg");
   width: 100px;
   height: 100px;
   left: -112px;
@@ -926,7 +926,7 @@ img {
   bottom: 0;
   right: 0;
   margin: auto;
-  background: url("../assets/img/digital.png");
+  background: url("../img/digital.png");
   height: 800px;
   width: 350px;
   background-repeat: no-repeat;
@@ -947,7 +947,7 @@ img {
 .shape_menu_mob .slick-prev:before {
   position: absolute;
   content: "";
-  background: url("../assets/img/arrow_icn.png");
+  background: url("../img/arrow_icn.png");
   width: 22px;
   height: 15px;
   background-repeat: no-repeat;
@@ -1024,7 +1024,7 @@ img {
   background-color: #000;
   border: 2px solid #fff;
   border-radius: 24px;
-  background-image: url("../assets/img/cta1.webp");
+  background-image: url("../img/cta1.webp");
   padding: 40px 60px;
   background-repeat: no-repeat;
   background-position: center right;
@@ -1181,7 +1181,7 @@ img {
 .dev_cta_main:after {
   position: absolute;
   content: "";
-  background: url("../assets/img/cta_curve.webp");
+  background: url("../img/cta_curve.webp");
   bottom: 0;
   right: 0;
   left: 50px;
@@ -1530,7 +1530,7 @@ a:focus {
 .modern_tech_mb .slick-prev:before {
   position: absolute;
   content: "";
-  background: url("../assets/img/arrow_icn.png");
+  background: url("../img/arrow_icn.png");
   width: 22px;
   height: 15px;
   background-repeat: no-repeat;
@@ -1592,7 +1592,7 @@ a:focus {
 .vision_sec_slider .slick-prev:before {
   position: absolute;
   content: "";
-  background: url("../assets/img/arrow_icn.png");
+  background: url("../img/arrow_icn.png");
   width: 22px;
   height: 15px;
   background-repeat: no-repeat;
@@ -1824,7 +1824,7 @@ a:focus {
 .tech_us::after {
   content: "";
   position: absolute;
-  background: url("../assets/img/block.png");
+  background: url("../img/block.png");
   height: 62px;
   width: 62px;
   top: 53px;
@@ -1915,7 +1915,7 @@ a:focus {
 }
 
 .challenge_main {
-  background: url("../assets/img/challenge_cta.png");
+  background: url("../img/challenge_cta.png");
   border-radius: 12px;
   padding: 40px 65px;
   display: flex;
@@ -2184,7 +2184,7 @@ a:focus {
 /* Mobapp Cta 3 */
 
 .nw_cta3 {
-  background: url("../assets/img/mbl_cta3.webp");
+  background: url("../img/mbl_cta3.webp");
   padding: 40px;
   background-position: center;
   background-size: 100% 100%;
