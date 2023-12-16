@@ -473,6 +473,7 @@ background: linear-gradient(67deg, rgba(53,137,65,0.9752275910364145) 10%, rgba(
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
+  padding-left: 0;
 }
 
 .big_menu_item {
@@ -558,6 +559,46 @@ h3.ebook_heading {
   z-index: -1;
   opacity: 0;
   transition: all 0.5s ease;
+}
+
+/* Big Menu Bottom */
+
+.big_menu_btm {
+  padding: 20px;
+  background: #e7f5ff;
+}
+
+.big_menu_btm .big_menu_list .big_menu_item {
+  width: 30%;
+  margin-bottom: 0;
+}
+
+@media (max-width: 768px)  and (min-width: 426px){
+
+  .header .big_menu_item a {
+    font-size: 15px !important;
+  }
+
+  #loginDropdown > li > div.big_menu_btm > ul > li:nth-child(3) > a > i{
+    width: 44px;
+    font-size: 13px;
+}
+
+
+}
+
+@media screen and (max-width: 425px) {
+
+/* Big menu */
+
+.header .big_menu_item a {
+  font-size: 14px !important;
+}
+
+.big_menu_btm .big_menu_list .big_menu_item {
+  width: 100% !important;
+}
+
 }
 
 /* Services End */
